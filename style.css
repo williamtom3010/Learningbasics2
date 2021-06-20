@@ -85,11 +85,12 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-pills {
     text-align: bold;
-    text-align: center;
+    text-align: right;
 }
 
 .navigation .nav-brand {
@@ -118,7 +119,7 @@ hr {
 }
 
 .hero .hero-heading {
-    color: var(--gray);
+    color: var(--primary-color);
     padding-top: 1rem;
 }
 
@@ -143,10 +144,11 @@ hr {
 
 footer {
     background-color: var(--primary-color);
-    padding: 2rem    ;
-    border-bottom-left-radius: 1rem;
+    padding: 3rem    ;
+    border-bottom-right-radius: 1rem;
     text-align: center;
     color: white;
+    border-bottom-left-radius: 1rem;
 }
 
 .footer .link {
