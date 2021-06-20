@@ -1,4 +1,4 @@
-body {
+/* body {
     color : red;
 }
 
@@ -20,4 +20,41 @@ h3 {
 
 #header {
     color:brown;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+:root {
+    --primary-color: #DC2626;
+}
+
+body {
+    font-family: 'Pangolin', cursive;
+}
+
+/* center container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* links */
+
+.link{
+    text-decoration : none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);    
+    color: white;
+}
+.secondary-link {
+   color: var(--primary-color);
+   border: 1px solid var(--primary-color)
 }
