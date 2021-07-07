@@ -59,7 +59,7 @@ hr {
 }
 
 .primary-link {
-    background-color: var(--primary-color);
+    background-color: red;
     color: white;
 }
 
