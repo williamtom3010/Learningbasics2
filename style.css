@@ -64,7 +64,7 @@ hr {
 }
 
 .secondary-link {
-    color: var(--primary-color);
+    color: red;
     border: 1px solid var(--primary-color)
 }
 
