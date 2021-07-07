@@ -25,7 +25,7 @@ h3 {
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
 :root {
-    --primary-color: #DC2626;
+    --primary-color: blue;
     --gray: #9CA3AF;
     --offwhite: #F3F4F6;
 }
