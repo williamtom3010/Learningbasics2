@@ -61,11 +61,12 @@ hr {
 .primary-link {
     background-color: red;
     color: white;
+    
 }
 
 .secondary-link {
     color: red;
-    border: 1px solid var(--primary-color)
+    border: 1px dashed var(--primary-color)
 }
 
 /* BEM naming convention for CSS */
@@ -91,7 +92,7 @@ hr {
 
 .navigation .nav-pills {
     text-align: bold;
-    text-align: right;
+    text-align: right;    
 }
 
 .navigation .nav-brand {
